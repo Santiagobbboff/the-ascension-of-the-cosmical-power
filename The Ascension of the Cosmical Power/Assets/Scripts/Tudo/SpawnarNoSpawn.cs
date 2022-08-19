@@ -16,7 +16,7 @@ public class SpawnarNoSpawn : MonoBehaviour
 
     }
 
-    private void OnLevelWasLoaded(int level)
+    private void OnSceneWasLoaded(int level)
     {
         FindStartPos();
     }
